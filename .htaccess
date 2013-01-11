@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^phpinfo.php$ index.php [L]
+RewriteCond %{SCRIPT_FILENAME} !^phpinfo.php
+RewriteRule ^(.*)$ apps/Sandbox/public/$1 [L]

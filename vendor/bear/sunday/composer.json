@@ -1,0 +1,43 @@
+{
+    "name": "bear/sunday",
+    "type": "library",
+    "description": "BEAR.Sunday, a resource oriented framework",
+    "version": "0.5.5",
+    "keywords": [
+        "framework",
+        "api",
+        "di",
+        "aop",
+        "roa",
+        "resource",
+        "hypermedia"
+    ],
+    "homepage": "https://github.com/koriym/BEAR.Sunday",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Akihito Koriyama",
+            "email": "akihito.koriyama@gmail.com",
+            "homepage": "https://github.com/koriym"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php"                    : ">=5.4.0",
+        "ext-apc"                : "*",
+        "ext-curl"               : "*",
+        "aura/di"                : "1.0.*",
+        "aura/signal"            : "1.0.*",
+        "ray/di"                 : ">=1.0.0-beta3",
+        "ray/aop"                : ">=1.0.0-beta2",
+        "bear/resource"          : ">=0.5.1",
+        "guzzle/guzzle"          : "2.7.*",
+        "nocarrier/hal"          : "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "BEAR\\Sunday": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
